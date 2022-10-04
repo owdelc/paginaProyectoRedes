@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import imagen from '../public/favicon.ico'
+import Link from 'next/link'
 
 function NavLink({to, children}) {
-    return <a href={to} className={`mx-4`}>
+    return <Link href={to} className={`mx-4`}>
         {children}
-    </a>
+    </Link>
 }
 
 function MobileNav({open, setOpen}) {
@@ -15,24 +16,24 @@ function MobileNav({open, setOpen}) {
                 
             </div>
             <div className="flex flex-col ml-4">
-                <a className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <Link className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     HOME
-                </a>
-                <a className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/download" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                </Link>
+                <Link className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/download" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     DOWNLOAD
-                </a>
-                <a className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/rules" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                </Link>
+                <Link className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/rules" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     RULES
-                </a>
-                <a className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/howto" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                </Link>
+                <Link className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/howto" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     HOW TO
-                </a>
-                <a className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                </Link>
+                <Link className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     ABOUT
-                </a>
-                <a className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                </Link>
+                <Link className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     CONTACT
-                </a>
+                </Link>
             </div>  
         </div>
     )
@@ -45,7 +46,7 @@ export default function Navbar() {
         <nav className="flex filter drop-shadow-lg bg-lime-200 px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-3/12 flex items-center">
-                <a className="ml-12" href="/"><Image src={imagen} height='50px' width='50px'/></a>
+                <Link className="ml-12" href="/"><Image src={imagen} height='50px' width='50px'/></Link>
             </div>
             <div className="w-9/12 flex justify-end items-center">
 
