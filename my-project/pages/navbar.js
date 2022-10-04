@@ -62,22 +62,22 @@ export default function Navbar() {
 
                 <div className="hidden md:flex">
                 <NavLink to="/">
-                        HOME
+                        <a className='p-4'>HOME</a>
                     </NavLink>
                     <NavLink to="/download">
-                        DOWNLOAD
+                        <a className='p-4'>DOWNLOAD</a>
                     </NavLink>
                     <NavLink to="/rules">
-                        RULES
+                        <a className='p-4'>RULES</a>
                     </NavLink>
                     <NavLink to="howto">
-                        HOW TO
+                        <a className='p-4'>HOW TO</a>
                     </NavLink>
                     <NavLink to="/contact">
-                        CONTACT
+                        <a className='p-4'>CONTACT</a>
                     </NavLink>
                     <NavLink to="/about">
-                        ABOUT
+                        <a className='p-4'>ABOUT</a>
                     </NavLink>
                 </div>
             </div>
