@@ -16,26 +16,27 @@ function MobileNav({open, setOpen}) {
                 
             </div>
             <div className="flex flex-col ml-4">
-                <Link className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    HOME
+                <Link href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    <a  className="text-xl text-center hover:text-lime-200 font-medium my-4">HOME</a>
                 </Link>
-                <Link className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/download" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    DOWNLOAD
+                <Link href="/download" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    <a className="text-xl text-center hover:text-lime-200 font-medium my-4">DOWNLOAD</a>
                 </Link>
-                <Link className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/rules" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    RULES
+                <Link href="/rules" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    <a  className="text-xl text-center hover:text-lime-200 font-medium my-4">RULES</a>
                 </Link>
-                <Link className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/howto" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    HOW TO
+                <Link href="/howto" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    <a  className="text-xl text-center hover:text-lime-200 font-medium my-4">HOW TO</a>
                 </Link>
-                <Link className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    ABOUT
+                <Link href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    <a  className="text-xl text-center hover:text-lime-200 font-medium my-4">ABOUT</a>
                 </Link>
-                <Link className="text-xl text-center hover:text-lime-200 font-medium my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    CONTACT
+                <Link href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    <a  className="text-xl text-center hover:text-lime-200 font-medium my-4">CONTACT</a>
                 </Link>
             </div>  
         </div>
+        
     )
 }
 
