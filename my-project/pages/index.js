@@ -50,7 +50,7 @@ export default function Home() {
             <p classNameName="mb-3 font-normal text-white ">La parte sin sal de las cartas (la Pila) se coloca boca abajo en el centro de la mesa. La carta superior se coloca boca arriba junto a ella para comenzar la pila de descartes. Los jugadores se turnan comenzando a la izquierda del crupier.</p>
             <p classNameName="mb-3 font-normal text-white ">Un jugador debe tomar una carta, ya sea la carta superior de la Pila o el Descarte superior. Si toma el Descarte superior, debe cambiarlo por uno de su estante, que descarta (boca arriba en la pila de Descartes).Si toma la carta superior de la Pila, puede cambiarla por una de su estante o descartarla si así lo desea.</p>
             <p classNameName="mb-3 font-normal text-white ">Cuando se intercambian tarjetas, el jugador debe colocar la nueva tarjeta en la ranura de la que se toma la tarjeta anterior.</p>
-            <p classNameName="mb-3 font-normal text-white ">Si la Pila se agota antes de que cualquier jugador haga "Rack-O", la pila de Descarte se voltea y se usa como Pila de nuevo.</p>
+            <p classNameName="mb-3 font-normal text-white ">Si la Pila se agota antes de que cualquier jugador haga Rack-O, la pila de Descarte se voltea y se usa como Pila de nuevo.</p>
         </a>
         
         <a href="#" className="block p-6 max-w-5xlsm bg-black rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
