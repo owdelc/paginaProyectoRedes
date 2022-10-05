@@ -9,7 +9,7 @@ export default function Home() {
       <div classNameName="align-middle">
 
         <div classNameNameName="align-middle content-center">
-          <Image classNameNameName="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={racko} alt="" />
+          <Image classNameNameName="object-center w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={racko} alt="" />
         </div>
 
         <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border ">
