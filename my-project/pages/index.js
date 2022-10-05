@@ -8,7 +8,7 @@ export default function Home() {
     <body>
       <div classNameName="align-middle">
 
-        <a href="#" classNameNameName="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-5xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <a href="#" classNameNameName="flex flex-col items-center bg-white rounded-lg border shadow-md mb-8 md:flex-row md:max-w-5xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
           <Image classNameNameName="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={racko} alt="" />
           <div classNameName="flex flex-col justify-between p-4 leading-normal">
             <h1 classNameName="mb-2 text-2xl font-bold tracking-tight text-blue-50 ">Rack-O</h1>
@@ -17,7 +17,7 @@ export default function Home() {
         </a>
 
 
-        <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border border-gray-200 shadow-md mb-8 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-blue-50 ">Componentes</h2>
               <ul>
                 <li>Una baraja de 60 cartas de cartas Rack-O</li>
@@ -26,12 +26,12 @@ export default function Home() {
               </ul>
         </a>
 
-        <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border border-gray-200 shadow-md mb-8 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-blue-50 ">Objetivo</h2>
             <p classNameName="mb-3 font-normal text-black ">Ser el primer jugador en reemplazar las cartas en su estante sacando cartas de la pila cuyos números se leen en cualquier progresión numérica de BAJO a ALTO.</p>
         </a>
 
-        <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border border-gray-200 shadow-md mb-8 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-blue-50 ">Setup</h2>
 
             <h3 className="mb-2 text-xl font-bold tracking-tight text-blue-50 ">Cartas</h3>
@@ -45,7 +45,7 @@ export default function Home() {
 
         </a>
 
-        <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border border-gray-200 shadow-md mb-8 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-blue-50 ">Como se juega</h2>
             <p classNameName="mb-3 font-normal text-black ">La parte sin sal de las cartas (la Pila) se coloca boca abajo en el centro de la mesa. La carta superior se coloca boca arriba junto a ella para comenzar la pila de descartes. Los jugadores se turnan comenzando a la izquierda del crupier.</p>
             <p classNameName="mb-3 font-normal text-black ">Un jugador debe tomar una carta, ya sea la carta superior de la Pila o el Descarte superior. Si toma el Descarte superior, debe cambiarlo por uno de su estante, que descarta (boca arriba en la pila de Descartes).Si toma la carta superior de la Pila, puede cambiarla por una de su estante o descartarla si así lo desea.</p>
@@ -54,13 +54,13 @@ export default function Home() {
         </a>
 
         
-        <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border border-gray-200 shadow-md mb-8 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-blue-50 ">Ganar una ronda</h2>
             <p classNameName="mb-3 font-normal text-black ">¡Una ronda termina cuando un jugador se convierte en Rack-O! Para ir al Rack-O, un jugador debe tener las diez cartas en su estante leyendo desde una tarjeta BAJA en la ranura n. ° 5 a una tarjeta ALTA en la ranura n. ° 50, en cualquier combinación de tarjetas cada vez más altas.</p>
             <p classNameName="mb-3 font-normal text-black ">La Figura 1 muestra una de las muchas combinaciones que un jugador podría tener para ir al Rack-O y ganar una ronda.</p>
         </a>
 
-        <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border border-gray-200 shadow-md mb-8 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-blue-50 ">Fin del juego</h2>
               <p classNameName="mb-3 font-normal text-black ">El jugador que juega Rack-O anota 75 puntos, 5 por cada una de las diez cartas en su estante y 25 puntos por ir Rack-O.</p>
               <p classNameName="mb-3 font-normal text-black ">Los otros jugadores obtienen 5 puntos por las cartas, en su estante, en secuencia BAJA a ALTA. Comenzando con la tarjeta en la ranura n. ° 5 y terminando donde se ha roto la sucesión de tarjetas superiores. La figura 3 muestra una puntuación de 30 puntos.</p>
