@@ -35,13 +35,13 @@ export default function Home() {
         <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border ">
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-red-600 ">Setup</h2>
 
-            <h3 className="mb-2 text-xl font-bold tracking-tight text-red-600 ">Cartas</h3>
+            <h3 className="mb-2 text-xl font-bold tracking-tight text-indigo-500 ">Cartas</h3>
             <p classNameName="mb-3 font-normal  ">Las tarjetas Rack-O están numeradas del 1 al 60. En este caso de 4 jugadores, se utilizan las 60 tarjetas.</p>
 
-            <h3 className="mb-2 text-xl font-bold tracking-tight text-red-600 ">Rejillas</h3>
+            <h3 className="mb-2 text-xl font-bold tracking-tight text-indigo-500 ">Rejillas</h3>
             <p classNameName="mb-3 font-normal  ">Cada jugador usa un estante. Los números que aparecen en cada estante: 5, 10, 15, 20, 25, 30, 35, 40, 45 y 50 se utilizan solo para puntuar.</p>
 
-            <h3 className="mb-2 text-xl font-bold tracking-tight text-red-600 ">Acuerdo</h3>
+            <h3 className="mb-2 text-xl font-bold tracking-tight text-indigo-500 ">Acuerdo</h3>
             <p classNameName="mb-3 font-normal  ">Corte para el trato. Primero se reparten cartas bajas. El crupier baraja las cartas y reparte diez a todos los jugadores.</p>
 
         </a>
