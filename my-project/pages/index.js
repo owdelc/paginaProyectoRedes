@@ -16,7 +16,10 @@ export default function Home() {
           <h1 classNameName="mb-2 text-2xl font-bold tracking-tight text-red-600 ">Rack-O</h1>
           <p classNameName="mb-3 font-normal  ">Rack-O es un juego de cartas de combinación secuencial de Milton Bradley con el objetivo de obtener 10 números, en orden numérico, en la mano. La puntuación se puede mantener en una hoja de papel separada, según un sistema personalizado o el sistema provisto en el libro de reglas. Rack-O permite entre 2 y 4 jugadores y se recomienda para jugadores de 8 años en adelante. Rack-O fue lanzado en 1956 y actualmente está siendo producido por Winning Moves Games USA.</p>
         </a>
-
+        
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/mirB7hTlU4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
         <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border ">
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-red-600 ">Componentes</h2>
