@@ -53,6 +53,7 @@ export default function Home() {
             <p classNameName="mb-3 font-normal text-white ">Si la Pila se agota antes de que cualquier jugador haga Rack-O, la pila de Descarte se voltea y se usa como Pila de nuevo.</p>
         </a>
         
+        
         <a href="#" className="block p-6 max-w-5xlsm bg-black rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-blue-50 ">Ganar una ronda</h2>
             <p classNameName="mb-3 font-normal text-white ">¡Una ronda termina cuando un jugador se convierte en Rack-O! Para ir al Rack-O, un jugador debe tener las diez cartas en su estante leyendo desde una tarjeta BAJA en la ranura n. ° 5 a una tarjeta ALTA en la ranura n. ° 50, en cualquier combinación de tarjetas cada vez más altas.</p>
