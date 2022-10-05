@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import imagen from '../img/racko.jpg'
+import racko from '../img/racko.jpg'
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <div className="align-middle">
 
         <a href="#" classNameName="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-          <Image classNameName="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={imagen} alt="" />
+          <Image classNameName="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={racko} alt="" />
           <div className="flex flex-col justify-between p-4 leading-normal">
             <h1 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rack-O</h1>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Rack-O es uno de los juegos de cartas más queridos. Ha sido un favorito para jugadores de todas las edades desde la década de 1950. Esta versión clásica presenta las reglas originales, la jugabilidad y la apariencia que adoran los jugadores.</p>
