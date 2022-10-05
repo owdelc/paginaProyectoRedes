@@ -11,10 +11,10 @@ export default function Home() {
         <div classNameNameName="align-middle content-center">
           <Image classNameNameName="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={racko} alt="" />
         </div>
-
+        
         <a href="#" className="block p-6 max-w-5xlsm bg-white rounded-lg border ">
-          <h1 className="mb-2 text-2xl font-bold tracking-tight text-red-600 ">Rack-O</h1>
-          <p classNameName="mb-3 font-normal  ">Rack-O es un juego de cartas de combinación secuencial de Milton Bradley con el objetivo de obtener 10 números, en orden numérico, en la mano. La puntuación se puede mantener en una hoja de papel separada, según un sistema personalizado o el sistema provisto en el libro de reglas. Rack-O permite entre 2 y 4 jugadores y se recomienda para jugadores de 8 años en adelante. Rack-O fue lanzado en 1956 y actualmente está siendo producido por Winning Moves Games USA.</p>
+            <h2 className="mb-2 text-2xl font-bold tracking-tight text-red-600 ">Rack-O</h2>
+            <p classNameName="mb-3 font-normal  ">Rack-O es un juego de cartas de combinación secuencial de Milton Bradley con el objetivo de obtener 10 números, en orden numérico, en la mano. La puntuación se puede mantener en una hoja de papel separada, según un sistema personalizado o el sistema provisto en el libro de reglas. Rack-O permite entre 2 y 4 jugadores y se recomienda para jugadores de 8 años en adelante. Rack-O fue lanzado en 1956 y actualmente está siendo producido por Winning Moves Games USA.</p>
         </a>
         
         <div classNameNameName="align-middle content-center">
@@ -61,7 +61,6 @@ export default function Home() {
         <a href="#" className="block p-6 max-w-5xlsm rounded-lg border ">
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-red-600 ">Ganar una ronda</h2>
             <p classNameName="mb-3 font-normal  ">¡Una ronda termina cuando un jugador se convierte en Rack-O! Para ir al Rack-O, un jugador debe tener las diez cartas en su estante leyendo desde una tarjeta BAJA en la ranura n. ° 5 a una tarjeta ALTA en la ranura n. ° 50, en cualquier combinación de tarjetas cada vez más altas.</p>
-            <p classNameName="mb-3 font-normal  ">La Figura 1 muestra una de las muchas combinaciones que un jugador podría tener para ir al Rack-O y ganar una ronda.</p>
         </a>
 
         <a href="#" className="block p-6 max-w-5xlsm rounded-lg border ">
