@@ -17,10 +17,10 @@ function MobileNav({open, setOpen}) {
             </div>
             <div className="flex flex-col ml-4">
                 <Link href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    <a  className="text-xl text-center hover:text-lime-200 font-medium my-4">HOME</a>
+                    <a  className="text-xl text-center hover:text-lime-200 font-medium my-4">RACK-O</a>
                 </Link>
                 <Link href="https://www.rackosistemas.tech/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    <a className="text-xl text-center hover:text-lime-200 font-medium my-4">pLAY</a>
+                    <a className="text-xl text-center hover:text-lime-200 font-medium my-4">PLAY</a>
                 </Link>
                 
             </div>  
@@ -51,7 +51,7 @@ export default function Navbar() {
 
                 <div className="hidden md:flex">
                 <NavLink to="/">
-                        <a className='p-4'>HOME</a>
+                        <a className='p-4'>RACK-O</a>
                     </NavLink>
                     <NavLink to="https://www.rackosistemas.tech/">
                         <a className='p-4'>PLAY</a>
