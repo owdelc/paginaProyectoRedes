@@ -19,21 +19,10 @@ function MobileNav({open, setOpen}) {
                 <Link href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     <a  className="text-xl text-center hover:text-lime-200 font-medium my-4">HOME</a>
                 </Link>
-                <Link href="/download" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    <a className="text-xl text-center hover:text-lime-200 font-medium my-4">DOWNLOAD</a>
+                <Link href="https://www.rackosistemas.tech/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    <a className="text-xl text-center hover:text-lime-200 font-medium my-4">pLAY</a>
                 </Link>
-                <Link href="/rules" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    <a  className="text-xl text-center hover:text-lime-200 font-medium my-4">RULES</a>
-                </Link>
-                <Link href="/howto" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    <a  className="text-xl text-center hover:text-lime-200 font-medium my-4">HOW TO</a>
-                </Link>
-                <Link href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    <a  className="text-xl text-center hover:text-lime-200 font-medium my-4">ABOUT</a>
-                </Link>
-                <Link href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    <a  className="text-xl text-center hover:text-lime-200 font-medium my-4">CONTACT</a>
-                </Link>
+                
             </div>  
         </div>
         
@@ -64,20 +53,8 @@ export default function Navbar() {
                 <NavLink to="/">
                         <a className='p-4'>HOME</a>
                     </NavLink>
-                    <NavLink to="/download">
-                        <a className='p-4'>DOWNLOAD</a>
-                    </NavLink>
-                    <NavLink to="/rules">
-                        <a className='p-4'>RULES</a>
-                    </NavLink>
-                    <NavLink to="howto">
-                        <a className='p-4'>HOW TO</a>
-                    </NavLink>
-                    <NavLink to="/contact">
-                        <a className='p-4'>CONTACT</a>
-                    </NavLink>
-                    <NavLink to="/about">
-                        <a className='p-4'>ABOUT</a>
+                    <NavLink to="https://www.rackosistemas.tech/">
+                        <a className='p-4'>PLAY</a>
                     </NavLink>
                 </div>
             </div>

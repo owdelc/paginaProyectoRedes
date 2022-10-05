@@ -82,7 +82,7 @@ export default function Home() {
             Cuando se intercambian tarjetas, el jugador debe colocar la nueva tarjeta en la ranura de la que se toma la tarjeta anterior.
           </p>
           <p>
-            Si la Pila se agota antes de que cualquier jugador haga "Rack-O", la pila de Descarte se voltea y se usa como Pila de nuevo.
+            Si la Pila se agota antes de que cualquier jugador haga Rack-O, la pila de Descarte se voltea y se usa como Pila de nuevo.
           </p>
         </div>
 
